@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{% static 'img/fav/fav.ico' %}" type="image">
+    <link rel="icon" href="{% static 'img/fav/fav.png' %}" type="image">
     <title>
       {% block title %}{% endblock %}
     </title>
@@ -14,8 +14,8 @@
     {% include "includes/header.html" %}
     <main class="pt-5 my-5">
       <div class="container">
-        {% block content %}{% endblock %}
-      </div>
+      {% block content %}{% endblock %}
+      <div class="container">
     </main>
     {% include "includes/footer.html" %}   
   </body>
